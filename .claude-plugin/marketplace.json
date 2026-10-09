@@ -1,0 +1,13 @@
+{
+  "name": "session-namer",
+  "description": "Claude Code session titles that start with the project folder.",
+  "owner": {
+    "name": "Vignesh Barani Sivakumar"
+  },
+  "plugins": [
+    {
+      "name": "session-namer",
+      "source": "./"
+    }
+  ]
+}

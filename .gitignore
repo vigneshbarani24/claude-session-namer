@@ -1,0 +1,5 @@
+# Laid by Claude Code when it loads the mod; regenerated per build
+.claude-plugin/types/
+node_modules/
+.DS_Store
+Thumbs.db

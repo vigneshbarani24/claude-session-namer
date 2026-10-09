@@ -1,0 +1,25 @@
+{
+  "name": "session-namer",
+  "version": "0.1.0",
+  "description": "Prefixes every Claude Code session title with its project folder: 'Bee Buzz · fix login flow'.",
+  "author": {
+    "name": "Vignesh Barani Sivakumar"
+  },
+  "homepage": "https://github.com/vigneshbarani24/claude-session-namer",
+  "repository": "https://github.com/vigneshbarani24/claude-session-namer",
+  "license": "MIT",
+  "userConfig": {
+    "depth": {
+      "type": "number",
+      "title": "Folder depth",
+      "description": "How many trailing folders of the project path to show (1: 'Bee Buzz', 2: 'Amazon Build 2026/Bee Buzz').",
+      "default": 1
+    },
+    "separator": {
+      "type": "string",
+      "title": "Separator",
+      "description": "Text between the folder and the session name.",
+      "default": " · "
+    }
+  }
+}
